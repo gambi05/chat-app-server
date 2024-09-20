@@ -1,0 +1,20 @@
+POST http://localhost:5000/login
+Content-Type:  application/json
+
+{
+    "username": "gambi",
+    "password": "123"    
+}
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "gambi",
+    "password": "123"    
+}
+###
+
+GET  http://localhost:5000/currentUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViNzkwYjA5ZWIyNGM2NmFmMzZhZTMiLCJpYXQiOjE3MjY3MDc5NzksImV4cCI6MTcyNjcxMTU3OX0.80UMpjWGlJ_Dho088sRlrxcUqF13X2A5SjerxAz7TD0
